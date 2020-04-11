@@ -15,6 +15,6 @@ my_favorite_movies = 'Терминатор, Пятый элемент, Ават�
 # Переопределять my_favorite_movies и использовать .split() нельзя.
 # Запятая не должна выводиться.
 
-# TODO здесь ваш код
+
 result = (my_favorite_movies[0:10], my_favorite_movies[-15:-1], my_favorite_movies[12:25], my_favorite_movies[-22:-17])
 print(result[0], result[1], result[2], result[3])
