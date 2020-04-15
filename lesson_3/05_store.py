@@ -47,9 +47,12 @@ store = {
 #     вывод на консоль количества и стоимости товара на складе
 
 # TODO здесь ваш код
-
-
-
-
-
-
+for item in goods:
+    item_name = item
+    item_id = goods[item]
+    item_qut = 0
+    item_prase = 0
+    for i in store[item_id]:
+        item_qut = i['quantity']
+        item_prase = i['price'] * item_qut
+        print(item_name, item_qut, item_prase)

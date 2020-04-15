@@ -10,4 +10,9 @@
 
 a, b = 179, 37
 
-# TODO здесь ваш код
+
+z = 0
+while b < a:
+    a = a - b
+    z = z + 1
+print(z)
